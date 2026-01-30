@@ -4,13 +4,13 @@ export default function ProblemSection() {
   return (
     <section
       id="problem"
-      className="scroll-mt-20 px-6 py-12 sm:py-16"
+      className="scroll-mt-20 px-4 py-12 sm:px-6 sm:py-16"
     >
-      <div className="mx-auto max-w-3xl">
-        <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">
+      <div className="mx-auto w-full max-w-3xl min-w-0">
+        <h2 className="text-xl font-semibold tracking-tight text-neutral-900 break-words sm:text-2xl lg:text-3xl">
           The Math Is Not Mathing
         </h2>
-        <p className="mt-4 text-base leading-relaxed text-neutral-600">
+        <p className="mt-4 text-base leading-relaxed text-neutral-600 break-words">
           Buy Me a Coffee takes a cut. When someone pays $10, the platform keeps
           a slice and you get $8.77. To withdraw, you need to hit $10 in your
           pocket. So we&apos;re basically funding their coffee, not mine.

@@ -30,23 +30,23 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="scroll-mt-20 px-6 py-12 sm:py-16"
+      className="scroll-mt-20 px-4 py-12 sm:px-6 sm:py-16"
     >
-      <div className="mx-auto max-w-5xl">
-        <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">
+      <div className="mx-auto w-full max-w-5xl min-w-0">
+        <h2 className="text-xl font-semibold tracking-tight text-neutral-900 break-words sm:text-2xl lg:text-3xl">
           Things I&apos;ve Built (That Somehow Went Viral)
         </h2>
-        <div className="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {PROJECTS.map((project) => (
             <a
               key={project.name}
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col rounded-lg border border-neutral-200 bg-white p-4 shadow-sm transition-all duration-200 hover:border-neutral-300 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-neutral-400 focus:ring-offset-2 focus:ring-offset-[var(--background)]"
+              className="group flex min-w-0 flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white p-4 shadow-sm transition-all duration-200 hover:border-neutral-300 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-neutral-400 focus:ring-offset-2 focus:ring-offset-[var(--background)]"
             >
-              <div className="flex items-start justify-between gap-2">
-                <span className="font-medium text-neutral-900 group-hover:underline">
+              <div className="flex min-w-0 items-start justify-between gap-2">
+                <span className="min-w-0 shrink font-medium text-neutral-900 break-all group-hover:underline">
                   {project.name}.vercel.app
                 </span>
                 <svg
@@ -63,7 +63,7 @@ export default function ProjectsSection() {
                   />
                 </svg>
               </div>
-              <p className="mt-1.5 text-sm text-neutral-600">
+              <p className="mt-1.5 min-w-0 text-sm text-neutral-600 break-words">
                 {project.description}
               </p>
             </a>

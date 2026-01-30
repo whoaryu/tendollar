@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-neutral-200 px-6 py-8">
-      <div className="mx-auto max-w-2xl text-center">
-        <p className="text-sm leading-relaxed text-neutral-600">
+    <footer className="border-t border-neutral-200 px-4 py-8 sm:px-6">
+      <div className="mx-auto w-full max-w-2xl min-w-0 text-center">
+        <p className="text-sm leading-relaxed text-neutral-600 break-words">
           This is a parody site. No pressure. No manipulation. Just vibes and
           transparency.
         </p>
