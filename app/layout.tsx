@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Help me reach $10 | That's it. That's the site.",
+  title: "We hit $10. Now the goal is $10k. | That's the site.",
   description:
-    "A transparent, no-BS parody site. Someone paid $10 on Buy Me a Coffee. I got $8.77. This is about crossing the withdrawal threshold. No begging. Just vibes.",
+    "A transparent, no-BS parody site. We crossed $10. Internet restored. Now going viral on Reddit and aiming for $10k. No begging. Just vibes and a donor leaderboard.",
   openGraph: {
-    title: "Help me reach $10. That's it. That's the site.",
+    title: "We hit $10. Now the goal is $10k.",
     description:
-      "Someone paid $10. I received $8.77. This is about justice. No pressure. Just transparency.",
+      "Internet restored. Site went viral. Goal: $10,000. Top donors leaderboard. No pressure. (Some pressure.)",
   },
   robots: "index, follow",
 };

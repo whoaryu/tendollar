@@ -1,26 +1,31 @@
 const PROJECTS = [
   {
-    name: "barneys-desktop",
+    name: "Barney's Desktop",
     url: "https://barneys-desktop.vercel.app",
     description: "My most viral internet experiment, watch out HIMYM fans.",
   },
   {
-    name: "chatwrapped",
+    name: "ChatWrapped",
     url: "https://chatwrapped.vercel.app",
     description: "Spotify Wrapped, but for your Whatsapp Chats.",
   },
   {
-    name: "the-old-internet",
+    name: "The Old Internet",
     url: "https://the-old-internet.vercel.app",
     description: "A nostalgia trip back to the early web in a detective game.",
   },
   {
-    name: "reconsider",
+    name: "Reconsider",
     url: "https://reconsider.vercel.app",
     description: "Reconsider your spendings via this simple tool.",
   },
   {
-    name: "big-bull",
+    name: "My Portfolio",
+    url: "https://whoaryu.github.io",
+    description: "my developer portfolio",
+  },
+  {
+      name: "Big Bull",
     url: "https://big-bull.vercel.app",
     description: "A fun simulation to make playing 'Stock Market' board game easier.",
   },
@@ -47,7 +52,7 @@ export default function ProjectsSection() {
             >
               <div className="flex min-w-0 items-start justify-between gap-2">
                 <span className="min-w-0 shrink font-medium text-neutral-900 break-all group-hover:underline">
-                  {project.name}.vercel.app
+                  {project.name}
                 </span>
                 <svg
                   className="h-4 w-4 shrink-0 text-neutral-400 transition-transform group-hover:translate-x-0.5 group-hover:text-neutral-600"
